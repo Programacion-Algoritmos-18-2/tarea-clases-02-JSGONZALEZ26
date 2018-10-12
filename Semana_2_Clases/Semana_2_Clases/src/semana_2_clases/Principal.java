@@ -9,7 +9,7 @@ package semana_2_clases;
  *
  * @author Jairo
  */
-public class Semana_2_Clases {
+public class Principal {
 
     /**
      * @param args the command line arguments
@@ -19,6 +19,9 @@ public class Semana_2_Clases {
         Precio p;
         p = new Precio();
         double x = 0;
+        System.out.println(p.euros);
+        p.euros = 10.1;
+        System.out.println(p.euros);
         p.agregar(x);
         System.out.println(p.obtener());
     }

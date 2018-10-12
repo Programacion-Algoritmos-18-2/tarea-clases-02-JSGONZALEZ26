@@ -3,8 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package semana_2_clases;
-import java.util.Scanner;
+package Ejercicio_3;
 
 /**
  *
@@ -12,16 +11,20 @@ import java.util.Scanner;
  */
 public class Precio {
 
-    double euros;
-    Scanner entrada = new Scanner(System.in);
+    private double euros;
 
     public void agregar(double x) {
-        System.out.println("Ingrese el valor de euros:");
-        euros = entrada.nextDouble();
+        euros = x;
     }
 
     public double obtener() {
         return euros;
     }
 
+    public Precio() {
+        agregar(30.2);
+    }
+public Precio(double y) {
+        agregar(y);
+    }
 }
