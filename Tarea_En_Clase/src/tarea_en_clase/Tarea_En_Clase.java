@@ -16,6 +16,7 @@ public class Tarea_En_Clase {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        /*Creación de objetos*/
         Equipo e1 = new Equipo();
         Equipo e2 = new Equipo("Liga de Loja");
         e2.agregar_Jugadores(20);
@@ -23,6 +24,7 @@ public class Tarea_En_Clase {
         Equipo e3 = new Equipo("Liga de Loja", 20);
         e3.agregar_Ciudad("Loja");
         Equipo e4 = new Equipo("Liga de Loja", 20, "Loja");
+        /*Imprimir los objetos*/
         System.out.printf("Nombre: %s - Jugadores: %s - Ciudad: %s\n", e1.obtener_Nombre(), e1.obtener_numJugadores(), e1.obtener_Ciudad());
         System.out.printf("Nombre: %s - Jugadores: %s - Ciudad: %s\n", e2.obtener_Nombre(), e2.obtener_numJugadores(), e2.obtener_Ciudad());
         System.out.printf("Nombre: %s - Jugadores: %s - Ciudad: %s\n", e3.obtener_Nombre(), e3.obtener_numJugadores(), e3.obtener_Ciudad());

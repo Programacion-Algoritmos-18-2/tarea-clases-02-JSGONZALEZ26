@@ -11,10 +11,12 @@ package tarea_en_clase;
  */
 public class Equipo {
 
+    /*Atributos*/
     private String nombre;
     private int num_Jugadores;
     private String ciudad;
 
+    /*Obtener y presentar los atributos*/
     public void agregar_Nombre(String x) {
         nombre = x;
 
@@ -41,6 +43,7 @@ public class Equipo {
         return ciudad;
     }
 
+    /*Creación de constructores*/
     public Equipo() {
         agregar_Nombre("Liga de Quito");
         agregar_Jugadores(23);
